@@ -13,5 +13,5 @@ def activation(input,weights):
 if __name__=='__main__':
     input=[0.5,0.3,0.2]
     weights=[0.4,0.7,0.2]
-    output=activation(input,weights)
-    print(output)
+    final_output=activation(input,weights)
+    print(final_output)
